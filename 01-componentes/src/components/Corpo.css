@@ -1,4 +1,9 @@
 .corpo-container{
-    background-color: darkcyan;
+    background-color: tomato;
     min-height: calc(100vh - 70px);
+}
+
+.imagem-corpo{
+    width: 350px;
+    /* height: 350px; */
 }

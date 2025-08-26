@@ -1,3 +1,5 @@
+/* Sempre que alguém perguntar qual é o css global, me chama */
+
 *{
   margin: 0;
   padding: 0;
@@ -5,5 +7,6 @@
 }
 
 html, body, #root {
+  /* background-color: aqua; */
   min-height: 100vh;
 }
