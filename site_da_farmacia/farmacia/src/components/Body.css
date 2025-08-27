@@ -1,8 +1,11 @@
 .body-container{
     background-color: #ffffff;
+    padding: 15px;
     min-height: calc(100vh - 70px);
 }
 
 .imagem-container{
-    width: 350px;
+    display: block;
+    margin: 0 auto;
+    width: 600px;
 }
