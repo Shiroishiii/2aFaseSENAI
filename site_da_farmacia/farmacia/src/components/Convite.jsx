@@ -1,5 +1,9 @@
 import './Convite.css'
 
+function ConfimarPresenca(){
+  alert ("Sua presença foi confirmada com sucesso!")
+}
+
 function Convite() {
   return (
     <div className='convite-container'>
@@ -18,6 +22,12 @@ function Convite() {
         <p>
             Sua presença é muito importante!
         </p>
+
+        <img src="./images/farmarcia-camisetas.png"className='imagem-camisetas' alt="" />
+        <img src="./images/farmarcia-cartoes.png" className='imagem-cartoes'alt="" />
+        <img src="./images/farmarcia-placa.png" className='imagem-placa' alt="" />
+
+        <button onClick={ConfimarPresenca} className='button-convite'>Confirmar presença</button>
     </div>
   )
 }
