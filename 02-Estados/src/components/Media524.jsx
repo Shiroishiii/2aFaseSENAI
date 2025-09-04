@@ -8,15 +8,30 @@ function Media524() {
     const [conceito, setConceito] = useState()
 
     function calcular(){
-        let n1 = Number(prompt("Digite sua primeira nota: "))
-        let n2 = Number(prompt("Digite sua segunda nota: "))
-        setNotaUm(n1)
-        setNotaDois(n2)
+      let n1 = Number(prompt("Digite sua primeira nota: "))
+      let n2 = Number(prompt("Digite sua segunda nota: "))
+      setNotaUm(n1)
+      setNotaDois(n2)
 
-        const m = (n1 + n2) / 2
-        setMedia(m)
-
-        
+      const m = (n1 + n2) / 2
+      setMedia(m)
+      
+      let obterConceito = ''
+      
+      if (m > 9.0 && m <= 10.0) {
+        obterConceito = 'A';
+      } else if (m > 7.5 && m <= 9.0) {
+        obterConceito = 'B';
+      } else if (m > 6.0 && m <= 7.5) {
+        obterConceito = 'C';
+      } else if (m > 4.0 && m <= 6.0) {
+        obterConceito = 'D';
+      } else if (m >= 0.0 && m <= 4.0) {
+        obterConceito = 'E';
+      } else {
+        obterConceito = 'Nota inválida';
+      }
+      setConceito(obterConceito)
     }
 
   return (

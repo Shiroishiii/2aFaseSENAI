@@ -2,6 +2,10 @@ import { useState } from 'react'
 import './App.css'
 import Venda523 from './components/Venda523'
 import Media524 from './components/Media524'
+import Cofrinho525 from './components/Cofrinho525'
+import Copo529 from './components/Copo529'
+import DoisCopos530 from './components/DoisCopos530'
+import Garcom531 from './components/Garcom531'
 
 function App() {
   const[numero, setNumero] = useState(0)
@@ -37,6 +41,10 @@ function App() {
       <button onClick={incrementar}>+</button>
       <Venda523 />
       <Media524 />
+      <Cofrinho525 />
+      <Copo529 />
+      <DoisCopos530 />
+      <Garcom531 />
     </>
   )
 }
