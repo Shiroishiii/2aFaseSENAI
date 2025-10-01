@@ -1,4 +1,5 @@
 import './App.css'
+import Navbar from './components/Navbar'
 import Home from './pages/Home'
 import Pagina1 from './pages/Pagina1'
 import Pagina2 from './pages/Pagina2'
