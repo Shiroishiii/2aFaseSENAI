@@ -2,5 +2,18 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #fbd4ff;
+    height: 60px;
     gap: 20px;
 }
+
+.link-style{
+    text-decoration: none;
+    color: #ff65ff;
+}
+
+.link-style:hover{
+    text-decoration: none;
+    color: #9f00b4;
+}
+
