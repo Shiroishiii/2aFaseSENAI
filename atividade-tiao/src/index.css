@@ -1,0 +1,17 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body, #root{
+  min-height: 100vh;
+}
+
+:root{
+  --preto: #3C3744;
+  --azul-escuro: #090C9B;
+  --azul: #3D52D5;
+  --azul-claro: #B4C5E4;
+  --branco: #FBFFF1;
+}

@@ -1,0 +1,20 @@
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    min-width: 100vw;
+
+    height: 70px;
+    background-color: var(--azul);
+}
+
+a{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover{
+    color: #fff;
+}
